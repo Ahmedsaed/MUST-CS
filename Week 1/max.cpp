@@ -7,14 +7,11 @@ using namespace std;
 int main() 
 {
     int x, y, z;
-    cout << "First number: ";
-    cin >> x;
+    cout << "First number: ", cin >> x;
 
-    cout << "Second number: ";
-    cin >> y;
+    cout << "Second number: ", cin >> y;
 
-    cout << "Third number: ";
-    cin >> z;
+    cout << "Third number: ", cin >> z;
 
     cout << "Max: ";
     if (x > y)
