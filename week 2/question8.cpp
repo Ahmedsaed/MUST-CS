@@ -21,7 +21,7 @@ int main()
 
     cout << endl << "The numbers you entered are " << a << " and " << b << endl;
     
-    z = X + 2 * a - b; // z = 20 + 40 - 15 = 45
+    z = X + 2 * a - b; // z = 20.5 + 40 - 15 = 45.5
 
     cout << "z = " << z << endl;
 

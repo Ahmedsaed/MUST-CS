@@ -23,7 +23,8 @@ int main()
 	int x = 25, y = 18;
 
 	// 2
-	int temp = 10, char ch = 'A';
+	int temp = 10;
+    char ch = 'A';
 
 	// 3
 	x += 5;
@@ -44,9 +45,9 @@ int main()
 	y = swapTmp;
 
 	// 7
-	double x, y;
+	double f, g;
 
-	cout << x << endl << y << endl << x + 12 / y - 18 << endl;
+	cout << f << endl << g << endl << f + 12 / g - 18 << endl;
 
 	// 8
 	char grade;
@@ -57,9 +58,9 @@ int main()
 	int a, b, c, d;
 
 	// 10
-	double z = 11.22;
-	int x;
+	double q = 11.22;
+	int p;
 
-	x = static_cast<int>(z);
-	cout << x << endl;
+	p = static_cast<int>(q);
+	cout << p << endl;
 }
