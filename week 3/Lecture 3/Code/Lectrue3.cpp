@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
-#include <iomanip>
 #include <string>
+#include <iomanip>
 #include <fstream>
 
 using namespace std;
@@ -11,12 +11,6 @@ int main()
     int x, y, z;
     double n;
     char ch;
-
-    // cin >> x >> y >> z;
-    
-    // cin >> x;
-    // cin >> y;
-    // cin >> z;
 
     // -----------------
 
@@ -47,32 +41,24 @@ int main()
 
     // ------------------------
 
-    // cin >> x;
-    // cout << x;
-
-    // cin.get();
-    // cout << x;
+    // cin.get(ch); 
+    // cout << ch;
 
     // ---------------------------
 
-    // char name[100]; // is equivalent to: string name;
+    // char name[50]; // is equivalent to: string name;
 
-    // cout << "What's your name?";
+    // cout << "What's your name? ";
 
-    // cin.get(name, 100);
+    // cin.get(name, 40);
     // cout << name << endl;
 
     // cin >> name;
     // cout << name;
 
-    // ----------------------------
-
-    /* TODO: Implement the example above using String data type */
-
 
     // ----------------------------- cin.ignore(int, char);
 
-    /* TODO: Remove the middle name */
 
     // char First_name[10]; // is equivalent to: string First_name;
     // char middle_name[10]; // is equivalent to: string middle_name;
@@ -83,8 +69,8 @@ int main()
     // cin >> First_name;
     // cout << "Your First Name: " << First_name << endl;
 
-    // cin >> middle_name;
-    // cout << "Your Middle Name: " << middle_name << endl;
+    // cin.ignore(20, ' ');
+    // cin.ignore(20, ' ');
 
     // cin >> family_name;
     // cout << "Your Family Name: " << family_name << endl;
@@ -93,15 +79,15 @@ int main()
 
     // n = 22.0 / 7;
 
-    // cout << n;
-
-    // cout << setprecision(2);
+    // cout << n << endl;
     
-    // cout << fixed << setprecision(2);
+    // cout << fixed << setprecision(3);
+
+    // cout << n;
     
     // ----------------------------- setw(n)
 
-    // x = 30;
+    // x = 5;
 
     // cout << setw(5) << x << endl;
 
@@ -153,28 +139,30 @@ int main()
 
     // TODO: Save the output to final.out 
 
-    // ifstream client_names;
-    // ifstream client_numbers;
-    // ofstream final;
+    ifstream client_names;
+    ifstream client_numbers;
+    ofstream final;
 
-    // client_names.open("names.data");
-    // client_numbers.open("numbers.data");
+    client_names.open("names.data");
+    client_numbers.open("numbers.data");
+    final.open("file.out");
 
-    // string name;
-    // string number;
+    string name;
+    string number;
 
-    // getline(client_names, name);
-    // getline(client_numbers, number);
-    // cout << name << ": " << number << endl;
+    getline(client_names, name);
+    getline(client_numbers, number);
+    final << name << ": " << number << endl;
 
-    // getline(client_names, name);
-    // getline(client_numbers, number);
-    // cout << name << ": " << number << endl;
+    getline(client_names, name);
+    getline(client_numbers, number);
+    final << name << ": " << number << endl;
 
-    // getline(client_names, name);
-    // getline(client_numbers, number);
-    // cout << name << ": " << number << endl;
+    getline(client_names, name);
+    getline(client_numbers, number);
+    final << name << ": " << number << endl;
 
-    // client_names.close();
-    // client_numbers.close();
+    final.close();
+    client_names.close();
+    client_numbers.close();
 }
