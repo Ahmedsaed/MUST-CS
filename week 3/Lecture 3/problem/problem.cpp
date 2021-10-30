@@ -3,6 +3,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <iomanip>
 
 using namespace std;
 
@@ -20,6 +21,8 @@ int main()
 
     getline(inData, studentName);
     inData >> test1 >> test2 >> test3 >> test4 >> test5;
+
+    outData << fixed << setprecision(2);
 
     outData << "Student Name: " << studentName << endl;
     outData << "Test scores: " << test1 << " " << test2 << " " << test3 << " " << test4 << " " << test5 << endl;
