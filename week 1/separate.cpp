@@ -11,6 +11,20 @@ int main()
 
     cout << "Number: ", cin >> n;
 
+    cout << n%10, cout << "\n";
+    n = n/10;
+
+    cout << n%10, cout << "\n";
+    n = n/10;
+
+    cout << n%10, cout << "\n";
+    n = n/10;
+
+    /* Advanced answer, where the program calculates the number of digits of the given number
+    int n;
+
+    cout << "Number: ", cin >> n;
+
     int length = trunc(log10(n)) + 1;
     
     for (int i = 0; i < length; i++)
@@ -18,4 +32,5 @@ int main()
         cout << n%10, cout << "\n";
         n = n/10;
     }
+    */
 }
