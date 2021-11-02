@@ -14,6 +14,28 @@ int main()
 
     cout << "Time in seconds: ", cin >> t;
 
+    int h = t / 3600;
+    int m = (t % 3600) / 60;
+    int s = (t % 3600) % 60;
+
+    cout <<  h << ":" << m << ":" << s << endl;
+}
+
+
+
+
+/* this answer is correct but it's not the best in terms of optimization. Also it uses some advanced c++ features like do-while loop (Which we haven't studied it yet)
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int t;
+
+    cout << "Time in seconds: ", cin >> t;
+
     // C++ doesn't initialize values to zero automatically
     int h = 0, m = 0, s = 0;
 
@@ -38,3 +60,4 @@ int main()
     
     cout << h << ":" << m << ":" << s << endl;
 }
+*/
