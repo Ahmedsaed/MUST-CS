@@ -4,6 +4,23 @@ the nearest integer.
 */
 
 #include <iostream>
+
+using namespace std;
+
+int main()
+{
+    double decimal;
+
+    cout << "Write a decimal number: ", cin >> decimal;
+
+    int number = decimal + 0.5;
+
+    cout << "Rounded number: " << number;
+}
+
+/* this answer should work, but it's not correct as the question doesn't allow us to import other libraries.
+
+#include <iostream>
 #include <cmath>
 
 using namespace std;
@@ -18,3 +35,4 @@ int main()
 
     cout << "Rounded Number: " << n;
 }
+*/
