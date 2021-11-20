@@ -1,0 +1,8 @@
+Answers are available in 
+- week 1\circumference&Area.cpp
+- week 1\male&female&invalid.cpp
+- week 1\max.cpp
+- week 1\odd&even.cpp
+- week 1\positive&negative&zero.cpp
+- week 1\right&left&straight.cpp
+- week 1\separate.cpp

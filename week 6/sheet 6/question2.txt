@@ -1,0 +1,5 @@
+Answers are available in 
+- week 2\lecture2.cpp
+- week 3\Lecture 3\problem
+- week 4\Lecture 4\Problem\problem.cpp
+- week 5\Examples
