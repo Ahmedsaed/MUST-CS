@@ -8,13 +8,13 @@ int main()
 
     // int counter, sum; 
     // counter = 1; 
-    // sum = 0; 
+    // sum = 0;
 
-    // while ( counter < 100) 
+    // while (counter < 100) 
     // {
     //     sum = sum + counter; 
-    //     counter++; 
-    // } 
+    //     counter++;
+    // }
     
     // cout << "The sum is " << sum << endl;
 
