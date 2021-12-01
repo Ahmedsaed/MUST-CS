@@ -2,7 +2,8 @@
 
 using namespace std;
 
-int main() {
+int main() 
+{
     int x, y; 
     int count = 1; int power = 1; 
 
