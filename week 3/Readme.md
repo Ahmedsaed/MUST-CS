@@ -1,1 +1,1 @@
-## Video Tutorial: https://youtu.be/4Sn5OH94iew
+## Video Tutorial: [Lecture 3 Examples | I/O stream | File I/O | C++ #1](https://youtu.be/4Sn5OH94iew)

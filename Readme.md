@@ -1,5 +1,5 @@
 # C++ Programming material for MUST_CS101 
-### YouTube tutorials: https://youtube.com/playlist?list=PLBUSkgRXZxIGMz-jzUXdAwS8HH_LU6ovO
+### YouTube tutorials: [College C++](https://youtube.com/playlist?list=PLBUSkgRXZxIGMz-jzUXdAwS8HH_LU6ovO)
 
 ## How To Navigate
 Each folder contains the material related to a specific week
@@ -13,9 +13,9 @@ In each folder there could be:
 3- "MOOC Quiz N" : A folder with all the c++ codes required to solve the problems in the Quiz
 
 ## How To Contribute 
-1- You can create a pull request: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
+1- You can create a pull request: [More Info](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 
-2- You can fork this repo: https://docs.github.com/en/get-started/quickstart/fork-a-repo
+2- You can fork this repo: [More Info](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
 ## Good Luck
 ~ Ahmed Saed
