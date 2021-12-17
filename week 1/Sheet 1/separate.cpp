@@ -20,16 +20,14 @@ int main()
     cout << n%10, cout << "\n";
     n = n/10;
 
-    /* Advanced answer, where the program calculates the number of digits of the given number
+    /* Advanced answer, that works with any number
     int n;
 
     cout << "Number: ", cin >> n;
-
-    int length = trunc(log10(n)) + 1;
     
-    for (int i = 0; i < length; i++)
+    while (n != 0)
     {
-        cout << n%10, cout << "\n";
+        cout << n%10 << "\n";
         n = n/10;
     }
     */
