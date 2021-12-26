@@ -2,24 +2,26 @@
 
 using namespace std;
 
-int smallestIndex(int x[], int size);
-
 int main()
 {
-    int list[] = {8, 2, 3, 4, 5, 6, 7, 1, 9};  
+    double alpha[50];
 
-    cout << smallestIndex(list, 8); // 7
-}
-
-int smallestIndex(int x[], int size)
-{   
-    int index = 0;
-
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < 25; i++)
     {
-        if (x[index] > x[i])
-            index = i;
+        alpha[i] = i * i;
     }
 
-    return index;
+    for (int i = 25; i < 50; i++)
+    {
+        alpha[i] = 3 * i;
+    }
+
+    for (int i = 0; i < 50;)
+    {
+        for (int n = i + 10; i < n; i++)
+        {
+            cout << alpha[i] << " ";
+        }
+        cout << endl;
+    }
 }
