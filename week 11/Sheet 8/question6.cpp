@@ -19,9 +19,7 @@ int main()
     for (int i = 0; i < 50;)
     {
         for (int n = i + 10; i < n; i++)
-        {
             cout << alpha[i] << " ";
-        }
         cout << endl;
     }
 }
