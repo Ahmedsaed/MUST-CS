@@ -1,1 +1,1 @@
-![](Assets\Happy New Year.gif)
+![](https://github.com/Ahmedsaed/College/blob/master/Assets/Happy%20New%20Year.gif)
