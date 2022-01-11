@@ -14,6 +14,10 @@ In each folder there could be:
 
 4- "Assignment N": A folder with all the c++ codes required to solve the problems in the Assignment
 
+## Have a question?
+
+Feel free to ask any questions in the Q/A discussions: [Q/A Discussions](https://github.com/Ahmedsaed/MUST-CS/discussions/categories/q-a)
+
 ## How To Contribute 
 1- You can create a pull request: [More Info](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 
