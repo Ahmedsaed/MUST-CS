@@ -1,3 +1,14 @@
+// Write a c++ script to draw a square of a given dimensions
+/* 
+    let dim = 5
+    Output:
+    
+    *****
+    *   *
+    *   *
+    *   *
+    *****
+*/
 #include <iostream>
 
 using namespace std;
