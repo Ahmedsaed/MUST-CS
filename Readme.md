@@ -1,8 +1,7 @@
 # C++ Programming material for MUST_CS
-### YouTube tutorials: [College C++](https://youtube.com/playlist?list=PLBUSkgRXZxIGMz-jzUXdAwS8HH_LU6ovO)
-
+<!-- ### YouTube tutorials: [College C++](https://youtube.com/playlist?list=PLBUSkgRXZxIGMz-jzUXdAwS8HH_LU6ovO) -->
 ## How To Navigate
-Each course has it's own folder, With each sub-folder contains the material related to a specific week
+Each course has it's own folder, Where each sub-folder contains the material related to a specific week
 
 In each sub-folder there could be:
 
