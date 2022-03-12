@@ -20,6 +20,7 @@ In each sub-folder there could be:
     │   ├── week N                      # Week Folder
     │   │   ├── Lecture N               # Lecture examples and solutions
     │   │   ├── Sheet N                 # Sheet Solutions
+    │   │   ├── Lab N                   # Lab Answers
     │   │   ├── MOOC Quiz N             # Quiz solutions
     │   │   └── Assignment N            # Assignment guide and solutions                   
     │   └── ...
