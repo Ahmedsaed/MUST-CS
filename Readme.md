@@ -9,6 +9,8 @@ In each sub-folder there could be:
 
 1. "Sheet N" : A folder with the c++ solutions for the problems in the sheet
 
+1. "Lab N": A folder with the c++ solutions to the problems introduced in the Lab
+
 1. "MOOC Quiz N" : A folder with the c++ solutions for the problems in the Quiz
 
 1. "Assignment N": A folder with the c++ solutions for the problems in the Assignment
