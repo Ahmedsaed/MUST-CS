@@ -4,3 +4,7 @@
 .vscode/launch.json
 .vscode
 tempCodeRunnerFile.cpp
+*
+!*.*
+!*/
+
