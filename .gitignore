@@ -1,10 +1,10 @@
+*
+!*.*
+!*/
 *.exe
 *.json
 .vscode/tasks.json
 .vscode/launch.json
 .vscode
 tempCodeRunnerFile.cpp
-*
-!*.*
-!*/
 
