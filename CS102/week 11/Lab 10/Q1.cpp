@@ -2,13 +2,13 @@
 
 using namespace std;
 
-int fibonacciNumbers(int z, int x = 0, int y = 1) {
+int fibonacciNumber(int z, int x = 0, int y = 1) {
 	if (z--)
-		fibonacciNumbers(y, y + x, z);
+		fibonacciNumber(y, y + x, z);
 	else return x;
 }
 
 int main()
 {
-	cout << fibonacciNumbers(6);
+	cout << fibonacciNumber(6);
 }
