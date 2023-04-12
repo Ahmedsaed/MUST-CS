@@ -49,9 +49,18 @@ public:
 
 int evaluatePostfix(string exp) {
     Stack stack;
+    string token;
     for (int i = 0; i < exp.length(); i++) {
-        if (isdigit(exp[i])) {
-            stack.push(exp[i] - '0');
+        if (exp[i] == ' ') {
+            continue;
+        } else if (isdigit(exp[i])) {
+            int num = 0;
+            while (isdigit(exp[i])) {
+                num = num * 10 + (int)(exp[i] - '0');
+                i++;
+            }
+            i--;
+            stack.push(num);
         } else {
             int val1 = stack.pop();
             int val2 = stack.pop();
@@ -78,7 +87,7 @@ int evaluatePostfix(string exp) {
 }
 
 int main() {
-    string exp = "231*+9-";
+    string exp = "10 20 + 30 * 40 -";
     int result = evaluatePostfix(exp);
     cout << "Result: " << result << endl;
     return 0;
